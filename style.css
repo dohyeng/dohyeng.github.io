@@ -184,7 +184,7 @@ hr {
   font-size: 16pt; /*  메뉴 폰트 사이즈 */
 }
 
-#gnb ul li {
+#gnb ul li a {
   display: block;
   position: relative;
   padding: 0 4px;
@@ -193,11 +193,11 @@ hr {
   color: #000;
 }
 
-#gnb a :hover {
+#gnb ul li a :hover {
   color:#273157;
 }
 
-#gnb a :hover:after {
+#gnb ul li a :hover:after {
   content: "";
   display: block;
   position: absolute;
