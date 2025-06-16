@@ -193,11 +193,11 @@ hr {
   color: #000;
 }
 
-#gnb ul li a:hover {
+#gnb ul li :hover {
   color:#273157;
 }
 
-#gnb ul li a:hover:after {
+#gnb ul li :hover:after {
   content: "";
   display: block;
   position: absolute;
