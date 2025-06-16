@@ -184,7 +184,7 @@ hr {
   font-size: 16pt; /*  메뉴 폰트 사이즈 */
 }
 
-#gnb ul li a {
+#gnb ul li {
   display: block;
   position: relative;
   padding: 0 4px;
