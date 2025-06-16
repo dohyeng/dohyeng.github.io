@@ -1,0 +1,81 @@
+body {
+  margin:0; padding:0; font-family: 'Pretendard', sans-serif;
+  background:#fff; color:#333;
+}
+header {
+  background:#004085;
+  color:#fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0; font-size: 24px;
+}
+nav a {
+  color: #cce5ff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #fff;
+}
+.hero {
+  background: url('https://www.u-tech.co.kr/images/main_visual.jpg') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #004085;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  flex: 1 1 280px;
+  background: #f0f8ff;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+footer {
+  background: #004085;
+  color: #cce5ff;
+  text-align: center;
+  padding: 20px 10px;
+}
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero {
+    font-size: 24px;
+    height: 250px;
+  }
+}
