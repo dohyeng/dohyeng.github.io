@@ -394,6 +394,7 @@ hr {
 }
 
 #footer .copyright {
+  align: center;
   text-align: left;
   font-size: 0.75em;
   color: #999;
